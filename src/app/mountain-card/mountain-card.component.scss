@@ -1,0 +1,11 @@
+.mountain-card {
+  min-height: 20rem;
+  background-color: white;
+  width: 20rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.3rem;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
