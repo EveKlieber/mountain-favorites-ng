@@ -1,0 +1,17 @@
+.profil-row {
+  display: flex;
+  align-items: center;
+    img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    // object-position: right;
+    margin-right: 2rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.3);
+  }
+  .profil-description {
+    color: rgba(0,0,0,0.5);
+    font-size: 1rem; 
+  }
+}

@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MountainCardComponent } from './mountain-card/mountain-card.component';
+import { ProposalsComponent } from './proposals/proposals.component';
+import { ProfilRowComponent } from './profil-row/profil-row.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MountainCardComponent
+    MountainCardComponent,
+    ProposalsComponent,
+    ProfilRowComponent
   ],
   imports: [
     BrowserModule,
