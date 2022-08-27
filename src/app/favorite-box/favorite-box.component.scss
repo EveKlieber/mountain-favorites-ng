@@ -1,0 +1,15 @@
+.favorite-row {
+  display: flex;
+}
+
+.favorites {
+  img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  font-size: 0.8rem;
+  text-align: center;
+
+}

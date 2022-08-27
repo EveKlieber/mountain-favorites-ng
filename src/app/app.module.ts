@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MountainCardComponent } from './mountain-card/mountain-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfilRowComponent } from './profil-row/profil-row.component';
+import { FavoriteBoxComponent } from './favorite-box/favorite-box.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProfilRowComponent } from './profil-row/profil-row.component';
     HeaderComponent,
     MountainCardComponent,
     ProposalsComponent,
-    ProfilRowComponent
+    ProfilRowComponent,
+    FavoriteBoxComponent
   ],
   imports: [
     BrowserModule,

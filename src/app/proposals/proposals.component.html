@@ -1,11 +1,14 @@
 <app-profil-row></app-profil-row>
 
-<b>mountain summit suggestions:</b>
+  <div class="margin-bottom-5rem suggestions">
+    <b>mountain summit suggestions:</b>
+  </div>
 
-<app-profil-row 
-*ngFor="let i of [0, 1, 2, 3]"
-[summits]="summits[i]"
-[regions]="regions[i]"
-[images]="images[i]"
 
-></app-profil-row>
+  <app-profil-row
+    *ngFor="let i of [0, 1, 2, 3]"
+    [summits]="summits[i]"
+    [regions]="regions[i]"
+    [images]="images[i]"
+>
+</app-profil-row>
