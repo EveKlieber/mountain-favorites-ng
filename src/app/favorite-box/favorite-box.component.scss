@@ -10,8 +10,10 @@
     height: 5rem;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 1rem;
   }
   font-size: 0.8rem;
   text-align: center;
-
+  display: flex;
+  flex-direction: column;
 }

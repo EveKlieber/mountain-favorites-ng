@@ -1,7 +1,7 @@
 <div class="standard-card favorite-row">
   
     <div class="favorites"
-      *ngFor="let i of [0, 1, 2, 3]" >
-        <img src="{{images[i]}}"> {{ summits[i] }}
+      *ngFor="let summit of fs.summits; let i = index" >
+        <img src="{{ fs.images[i] }}"> {{ fs.summits[i] }}
     </div>
 </div>
