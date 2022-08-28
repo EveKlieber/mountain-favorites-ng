@@ -1,1 +1,1 @@
-.favorite-row{display:flex}.favorites{font-size:.8rem;text-align:center}.favorites img{width:8rem;height:8rem;border-radius:50%;-o-object-fit:cover;object-fit:cover}
+.favorite-row{display:flex;gap:1.8rem;padding:2rem}.favorites{font-size:.8rem;text-align:center}.favorites img{width:5rem;height:5rem;border-radius:50%;-o-object-fit:cover;object-fit:cover}

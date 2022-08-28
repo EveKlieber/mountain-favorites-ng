@@ -1,11 +1,13 @@
 .favorite-row {
   display: flex;
+  gap: 1.8rem;
+  padding: 2rem;
 }
 
 .favorites {
   img {
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     object-fit: cover;
   }
