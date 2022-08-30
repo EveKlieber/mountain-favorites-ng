@@ -4,11 +4,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FavoriteService {
-    summits = ['Wendelstein 2.555m'];
+    summits = [ "" ];
 
-    regions = [ 'Chiemgau']
+    regions = [ "" ];
 
-    images = [ "assets/img/mountains/image7.jpg" ]
+    images = [ "" ];
 
   constructor() { }
 

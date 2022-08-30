@@ -1,5 +1,9 @@
 <div class="standard-card favorite-row">
   
+  <div *ngIf="favs.summits.length === 0">
+    you have not yet marked any peaks :(
+  </div>
+
     <div class="favorites"
       *ngFor="let summit of favs.summits; let i = index" >
         <img src="{{ favs.images[i] }}"> {{ summit}}

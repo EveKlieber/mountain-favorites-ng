@@ -16,10 +16,13 @@
   }
   .summits {
     width: 10rem;
+
   }
   a {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
     color: blue;
+    margin-left: 2rem;
     cursor: pointer;
     
     &:hover {

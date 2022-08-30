@@ -8,6 +8,8 @@ import { MountainCardComponent } from './mountain-card/mountain-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfilRowComponent } from './profil-row/profil-row.component';
 import { FavoriteBoxComponent } from './favorite-box/favorite-box.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule  } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FavoriteBoxComponent } from './favorite-box/favorite-box.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

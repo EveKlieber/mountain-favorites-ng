@@ -18,7 +18,7 @@
     width: 50%;
     position: absolute;
     bottom: 0;
-    height: 2rem;
+    height: 3rem;
     background-color: white;
     border: unset;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -33,5 +33,15 @@
     &:hover {
       background-color: rgba(0, 0, 0, 0.1);
     }
+    mat-icons {
+      padding-top: 0.5rem;
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

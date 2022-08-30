@@ -7,7 +7,8 @@
 
 
 
-  <a (click)="favs.addFavorite(summits, regions, images)">add to favorites</a>
+  <a *ngIf="canAddToFavorite" (click)="favs.addFavorite(summits, regions, images);
+  canAddToFavorite=false;">add to <br> favorites</a>
 
 </div>
 

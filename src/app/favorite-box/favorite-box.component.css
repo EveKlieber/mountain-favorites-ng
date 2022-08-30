@@ -1,1 +1,1 @@
-.favorite-row{display:flex;gap:1.8rem;padding:2rem}.favorites{font-size:.8rem;text-align:center;display:flex;flex-direction:column}.favorites img{width:5rem;height:5rem;border-radius:50%;-o-object-fit:cover;object-fit:cover;margin-bottom:1rem}
+.favorite-row{display:flex;color:rgba(0,0,0,.3);gap:1.8rem;padding:2rem}.favorites{font-size:.8rem;text-align:center;display:flex;flex-direction:column}.favorites img{width:5rem;height:5rem;border-radius:50%;object-fit:cover;margin-bottom:1rem}
