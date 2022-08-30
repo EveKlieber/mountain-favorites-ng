@@ -5,7 +5,9 @@
     <b>{{ summits }}</b><br>  <span class="profil-description">{{ regions }}</span>
   </div>
 
-  <a>add to favorites</a>
+
+
+  <a (click)="favs.addFavorite(summits, regions, images)">add to favorites</a>
 
 </div>
 

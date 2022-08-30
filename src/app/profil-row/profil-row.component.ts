@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { FavoriteService } from '../favorite.service';
 
 @Component({
   selector: 'app-profil-row',
@@ -11,7 +12,7 @@ export class ProfilRowComponent implements OnInit {
   @Input() images = "/assets/img/mountains/image11.jpg";
   
 
-  constructor() { }
+  constructor(public favs: FavoriteService) { }
 
   ngOnInit(): void {
   }

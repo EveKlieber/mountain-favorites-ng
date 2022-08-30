@@ -4,26 +4,18 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FavoriteService {
-  summits = [
-    'Wendelstein 2.555m',
-    'Waxenstein 2.333m',
-    'Rauschberg 2.222m',
-    'Zugspitze 2.999m'
-    ];
+    summits = ['Wendelstein 2.555m'];
 
-    regions = [
-      'Chiemgau',
-      'Salzkammergut',
-      'Schongau',
-      'Berchtesgadener Land'
-    ]
+    regions = [ 'Chiemgau']
 
-    images = [
-    "assets/img/mountains/image7.jpg",
-    "assets/img/mountains/image8.jpg",
-    "assets/img/mountains/image9.jpg",
-    "assets/img/mountains/image10.jpg",
-    ]
+    images = [ "assets/img/mountains/image7.jpg" ]
 
   constructor() { }
+
+
+  addFavorite(summit:string, region:string, image:string) {
+      this.summits.push(summit);
+      this.regions.push(region);
+      this.images.push(image)
+  }
 }

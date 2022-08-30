@@ -9,7 +9,7 @@ import { FavoriteService } from '../favorite.service';
 export class FavoriteBoxComponent implements OnInit {
 
   
-  constructor(public fs: FavoriteService) { }
+  constructor(public favs: FavoriteService) { }
 
   ngOnInit(): void {
   }
