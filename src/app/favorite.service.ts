@@ -4,11 +4,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FavoriteService {
-    summits = [ "" ];
+    summits:string[] = [ ];
 
-    regions = [ "" ];
+    regions:string[] = [ ];
 
-    images = [ "" ];
+    images:string[] = [ ];
 
   constructor() { }
 
